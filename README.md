@@ -1,7 +1,9 @@
 # APPDSEX1
 Implementing Data Preprocessing and Data Analysis
+
 ### NAME : Joyce Beulah R
 ### REG NO : 212222230058
+
 ## AIM:
 To implement Data analysis and data preprocessing using a data set
 
@@ -19,7 +21,9 @@ Step 5: Implement Quantile transfomer to make the column value more normalized.
 Step 6: Analyzing the dataset using visualizing tools form matplot library or seaborn.
 
 ## CODING AND OUTPUT:
+
 #### Importing Libararies:
+
 ```python
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -63,6 +67,7 @@ df.isnull().sum()
 ![image](https://github.com/user-attachments/assets/8600c495-5ae9-4da3-a9eb-665b27bc2e02)
 
 #### Before Removing Outliers
+
 ```python
 numerical_columns = ['Life expectancy ', 'Adult Mortality', 'infant deaths', 'Alcohol', 
                      'percentage expenditure', 'Hepatitis B', 'Measles ', ' BMI ', 
@@ -204,6 +209,7 @@ plt.suptitle('Pairplot of Selected Numerical Columns', y=1.02)
 plt.show()
 ```
 ![image](https://github.com/user-attachments/assets/5a8fa4d8-7c80-4307-ab51-c0d5b23fe646)
+
 
 ## RESULT:
 Thus Data analysis and Data preprocessing implemeted using a dataset.
